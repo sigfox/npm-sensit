@@ -24,7 +24,7 @@ SensitMsg.prototype.getBinary = function(){
 };
 SensitMsg.prototype.getBytes = function(){
   this.bytes = [];
-  this.frameStr.match(/[0-f]{1,2}/g).forEach(function (byte){
+  String(this.frameStr).match(/[0-f]{1,2}/g).forEach(function (byte){
     this.bytes.push(parseInt(byte, 16));
   }.bind(this));
 };
