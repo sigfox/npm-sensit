@@ -1,5 +1,7 @@
 # Sigfox Sensit
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/sigfox/npm-sensit.svg)](https://greenkeeper.io/)
+
 Very simple npm module to parse messages sent by a [Sensit](http://sensit.io) device
 
 ## Install
